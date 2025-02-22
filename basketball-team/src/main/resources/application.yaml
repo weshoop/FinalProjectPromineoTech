@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: basketball_team
+    password: basketball_team
+    url: jdbc:mysql://localhost:3306/basketball_team
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    
+  sql:
+    init:
+      mode: never
